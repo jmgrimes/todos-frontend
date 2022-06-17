@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Write Handbook",
+      "description": "The product handbook needs an initial draft written.  Work with the team to identify content, design a layout, and import content into the layout.",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Plan Party",
+      "description": "We're going to celebrate the arrival of our new hires with a party, but we don't know what kind of party to throw.  Gather some ideas from the team, do the initial investigation of those ideas, select one, and plan it out.",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Install New System",
+      "description": "Our existing system isn't meeting the needs of our department.  We recently procured a replacement system, but it needs to be installed and configured.",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Order Coffee",
+      "description": "Every Friday, we go out for coffee as a team building exercise.  Gather up everyone's orders for the week and send them over to the coffeehouse ahead of our meetup.",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "start-backend": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.8.1",
+    "@remix-run/node": "^1.5.1",
+    "@remix-run/react": "^1.5.1",
+    "@remix-run/serve": "^1.5.1",
+    "js-cookie": "^3.0.1",
+    "launchdarkly-node-server-sdk": "^6.4.1",
+    "launchdarkly-react-client-sdk": "^2.26.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "ua-parser-js": "^1.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@remix-run/dev": "^1.5.1",
+    "@remix-run/eslint-config": "^1.5.1",
+    "@types/js-cookie": "^3.0.2",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@types/ua-parser-js": "^0.7.36",
+    "@types/uuid": "^8.3.4",
+    "eslint": "^8.15.0",
+    "json-server": "^0.17.0",
+    "typescript": "^4.6.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
